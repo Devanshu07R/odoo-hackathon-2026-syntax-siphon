@@ -1,7 +1,49 @@
 # Python cache files
-_pycache_/
+__pycache__/
 *.py[cod]
 *$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python package & build artifacts
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependencies & JavaScript frontends
+node_modules/
+dist/
+dist-ssr/
 
 # Odoo system and local configuration files
 *.log
@@ -9,7 +51,14 @@ _pycache_/
 /filestore/
 /sessions/
 
-# IDE and system files
+# IDE, Editor, and OS files
 .vscode/
+!.vscode/extensions.json
 .idea/
 .DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
